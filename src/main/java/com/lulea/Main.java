@@ -16,15 +16,15 @@ package com.lulea;
 public class Main {
 
     // Constants
-    private static final double BATTERY_CAPACITY_KWH = 35.8;
-    private static final int SINGLE_PHASE_VOLTAGE = 230;
-    private static final int THREE_PHASE_VOLTAGE = 400;
-    private static final double SQRT_3 = Math.sqrt(3);
-    private static final int CURRENT_10 = 10;
-    private static final int CURRENT_16 = 16;
-    private static final int CURRENT_32 = 32;
-    private static final double ROUND_FACTOR = 100.0;
-    private static final int WATTS_TO_KILOWATTS = 1000;
+    public static final double BATTERY_CAPACITY_KWH = 35.8;
+    public static final int SINGLE_PHASE_VOLTAGE = 230;
+    public static final int THREE_PHASE_VOLTAGE = 400;
+    public static final double SQRT_3 = Math.sqrt(3);
+    public static final int CURRENT_10 = 10;
+    public static final int CURRENT_16 = 16;
+    public static final int CURRENT_32 = 32;
+    public static final double ROUND_FACTOR = 100.0;
+    public static final double WATTS_TO_KILOWATTS = 1000.0;
 
     public static void main(final String[] args) {
         // Print battery capacity label
